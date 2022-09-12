@@ -34,5 +34,11 @@ cUrl: `curl --request POST \
 	"age": 29
 }'`
 
+##### GET /users
+This endpoint will list all users 
+
+cUrl: `curl --request GET \
+  --url http://localhost:3000/users \
+  --header 'Content-Type: application/json'`
 
 

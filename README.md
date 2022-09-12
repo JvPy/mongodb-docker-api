@@ -13,7 +13,7 @@ At this point you should be able to hit the api using `postman`, `insomina` or `
 
 # Endpoints 
 
-##### POST /user
+#### POST /user
 This endpoint will add an user (if it not already exists) to the mongodb instance
 
 It expects an object of type 
@@ -34,7 +34,7 @@ cUrl: `curl --request POST \
 	"age": 29
 }'`
 
-##### GET /users
+#### GET /users
 This endpoint will list all users 
 
 cUrl: `curl --request GET \
